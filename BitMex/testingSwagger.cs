@@ -2,17 +2,18 @@
 using System.Diagnostics;
 using IO.Swagger.Api;
 using IO.Swagger.Client;
-using Model;
+using IO.Swagger.Model;
 
 namespace BitMex
 {
-    public class Example
+    public class testingSwagger
     {
         public void main()
         {
 
             var apiInstance = new APIKeyApi();
-            var apiKeyID = "";  // string | API Key ID (public component).
+            var clientInstance = new ApiClient();
+            var apiKeyID = "j4oE_9uKyZerJXWayrtlUVcY";  // string | API Key ID (public component).
 
             try
             {

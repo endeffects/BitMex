@@ -16,5 +16,11 @@ namespace BitMex
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var test = new testingSwagger();
+            test.main();
+        }
     }
 }
